@@ -22,3 +22,26 @@ let someNumber = 33;
 let stringSomeNumber = String(someNumber);
 console.log(stringSomeNumber);
 console.log(typeof stringSomeNumber);
+
+//***********************Operatins**********************/
+let str1 = 'abc';
+let str2 = 'pqr';
+
+let str3 = str1 + str2;
+console.log(str3);
+
+// console.log(1 + '1');
+// console.log('1' + '1');
+// console.log('1' + 1);
+// console.log(1 + 1 + '1');
+// console.log('1' + 1 + 1);
+
+console.log(+true);
+//console.log(true +);//wont work
+let x = 3;
+let y = 5; 
+let b = ++x;
+let c = y++;
+//***********Increament *********************/
+console.log('value of b', b);
+console.log('value of c', c);
