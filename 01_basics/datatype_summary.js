@@ -29,3 +29,26 @@ const myFunction = function()
     console.log('Hello world');
 }
 myFunction();
+
+//******************Memomry*******************//
+
+//stack(primitive) we will get the copy original value wont change
+//heap(non-primitive) we will get reference of original value
+
+let primitiveMemry1 = 'Anushka';
+let primitiveMemory2 = primitiveMemry1 ;
+ primitiveMemory2 = 'Rakesh'
+
+console.log(primitiveMemry1);
+console.log(primitiveMemory2);
+
+//Heap//
+ let userOne = {
+    email: 'abc@gmail.com',
+    age: 10
+ }
+
+ let userTwo = userOne;
+userOne.email = 'xyz@gmail.com' 
+ console.log(userTwo);
+ console.log(userOne);
