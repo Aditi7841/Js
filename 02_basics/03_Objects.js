@@ -1,4 +1,5 @@
 //Singletone
+//const appUser = new Object();
 //can be created of only constructor
 
 // Object Literals
